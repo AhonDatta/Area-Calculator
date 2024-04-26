@@ -76,8 +76,8 @@ elif ( t == "Cylinder") :
     curved_floor = math.pi * RNUM * h
     print("Area of curved floor is ", curved_floor)
 elif ( t == "ROOT OF A NUMBER") :
-    number = print("Enter your number :")
-    power = print("Enter the power")
+    number = int(input("Enter your number :"))
+    power = int(input("Enter the power"))
     result = number ** power
     print(number,"^",power,"  =  ",result)
 else :
